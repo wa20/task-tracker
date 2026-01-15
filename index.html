@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main class="app">
+        <h1>Task Tracker</h1>
+
+        <form id="task-form">
+            <input id="task-input" type="text" placeholder="Add a task..." />
+            <button type="submit">Add</button>
+        </form>
+
+        <section class="filters">
+            <button data-filter="all">All</button>
+            <button data-filter="active">Active</button>
+            <button data-filter="completed">Completed</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
